@@ -1,0 +1,407 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+  
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Italic-webfont.woff') format('woff');
+    font-style: italic;
+    font-weight: 400;
+}
+  
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Light-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+}
+  
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-LightItalic-webfont.woff') format('woff');
+    font-style: italic;
+    font-weight: 300;
+}
+  
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Bold-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h3 {
+    color:  #ff0000;
+}
+
+h2 {
+    color:  #54575a;
+}
+
+
+
+header {
+    text-align: left;
+    color: #000000;
+}
+
+.hero {
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    width:100%; 
+    height:100%;
+    z-index: -1;
+
+    object-fit: fill;
+}
+
+
+.header {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 100%;
+
+    position: relative;
+}
+
+.lang-panel {
+    position: absolute;
+    right: 1em;
+    top: 0.25em;
+    color: #fff;
+}
+
+.lang-panel a:link,
+.lang-panel a:visited,
+.lang-panel a:active,
+.lang-panel a:visited:active {
+    text-decoration: none;
+    color: #888F95;
+}
+
+.lang-panel a:hover,
+.lang-panel a:visited:hover {
+    text-decoration: none;
+    color: rgb(84, 179, 196);
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.menu li {
+    list-style-type: none;
+    width: 150px;
+    padding: 5px 5px 5px 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #888F95;
+}
+
+.menu > li a:hover,
+.menu > li a:visited:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a {
+    color: #888F95;
+    text-decoration: none;
+}
+
+.menu > li {
+    border-radius: 2px;
+}
+
+.menu > li.selected {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.menu > li.selected:hover,
+.menu > li.selected:visited:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.menu > li > span:hover
+.menu > li > span:visited:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown > a {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: #888F95;
+}
+
+.dropdown > span {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown a:hover,
+.dropdown a:visited:hover {
+    color: #fff;
+}
+
+.dropdown:hover .features-menu,
+.dropdown:visited:hover .features-menu{
+    display: flex;
+    flex-direction: column;
+    background: #54575a;
+    padding-top: 40px;
+
+    position: absolute;
+    top: -1px;
+    left: -1px;
+
+    z-index: 1;
+}
+
+.features-menu {
+    display: none;
+}
+
+.features-menu li{
+    list-style: none;
+
+    padding: 5px 5px 5px 10px;
+
+    border-bottom: 1px solid #fff;
+}
+
+.features-menu li:first-of-type {
+    border-top: 1px solid #fff;
+}
+
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.features-menu li a:link,
+.features-menu li a:visited,
+.features-menu li a:active,
+.features-menu li a:visited:active{
+    color: #888F95;
+    text-decoration: none;
+}
+
+.features-menu li a:hover,
+.features-menu li a:visited:hover {
+    color: rgb(196, 84, 84);
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page hr {
+    border: 0;
+    border-top: 1px solid #e9e9e9;
+}
+
+.section {    
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.section h3 {
+    margin-bottom: .7em;
+  }
+
+.section p {
+    margin: 0.4em 0;
+    width: 100%;
+}
+
+.index {
+    margin-left: 1em;
+}
+
+.index a {
+    color: #54575a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.index a:hover,
+.index a:visited:hover {
+    color: rgb(196, 84, 84);;
+}
+
+.index li {
+    margin-bottom: 1em;
+}
+
+.index li:last-of-type {
+    margin-bottom: 0;
+}
+
+
+.quote {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.foot {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    margin: 2em 0;
+}
+
+.legal {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 12px;
+    width: 100%;
+    max-width: 740px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.section li {
+    margin-left: 1em;
+}
+
+@media only screen and (min-width: 540px) and (max-width: 960px){
+    .menu{
+        width: 540px;
+    }
+    .quote {
+        width: 440px;
+        margin: 1em 50px;
+    }
+    .section{
+        width: 540px;
+        margin: 1em auto;
+    }
+    .section h2 {
+        font-size: 2em;
+    }
+    .section h3 {
+        font-size: 1.5em;
+    }
+    .hero {
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .menu{
+        width: 640px;
+    }
+    .quote {
+        width: 540px;
+        margin: 1em 50px;
+    }
+    .section {
+        width: 640px;
+        margin: 2em auto;
+    }
+    .section h2 {
+        font-size: 3em;
+    }
+    .section h3 {
+        font-size: 2em;
+    }
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .picture {
+        width: 50%;
+        height: 50%;
+    }
+    .hero {
+        height: 120px;
+        border: 1px solid black;
+    }
+}
