@@ -270,8 +270,9 @@ header {
 
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 96%;
     padding: 1em 0;
+    margin-left: 2%;
 }
 
 .section h3 {
@@ -318,6 +319,8 @@ header {
 
     width: 100%;
     height: auto;
+
+    max-width: 100%;
 }
 
 .foot {
