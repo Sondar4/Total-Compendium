@@ -74,6 +74,7 @@ h1, h3 {
 
 h2 {
     color:  #54575a;
+    text-align: center;
 }
 
 
@@ -280,14 +281,11 @@ header {
 }
 
 .section h1, h2, h3, h4, h5, h6, ul, ol {
-    width: 96%;
-    margin-left: 2%;
+    margin: 0 4%;
 }
 
 .section p {
-    margin: 0.4em 0;
-    width: 96%;
-    margin-left: 2%;
+    margin: 0.4em 4%;
 }
 
 .index {
@@ -378,6 +376,10 @@ figcaption {
     margin: 3em 0 3em 0;
 }
 
+.roster {
+    margin: 3em 0 3em 0;
+}
+
 @media only screen and (min-width: 540px) and (max-width: 960px){
     .menu{
         width: 540px;
@@ -399,6 +401,14 @@ figcaption {
     .hero {
         height: 120px;
     }
+    .section h1, h2, h3, h4, h5, h6, ul, ol {
+        margin: 0;
+        width: 100%;
+    }
+    .section p {
+        margin: 0.4em 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 961px) {
@@ -410,7 +420,7 @@ figcaption {
         margin: 1em 10%;
     }
     .section {
-        width: 60%;
+        width: 55%;
         margin: 2em auto;
     }
     .section h2 {
@@ -438,5 +448,16 @@ figcaption {
     .battle-diagram img{
         width: 100%;
         height: 100%;
+    }
+    .section h1, h2, h3, h4, h5, h6, ul, ol {
+        margin: 0;
+        width: 100%;
+    }
+    .section p {
+        margin: 0.4em 0;
+        width: 100%;
+    }
+    .column {
+        max-width: 640px;
     }
 }
