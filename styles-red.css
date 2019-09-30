@@ -92,6 +92,7 @@ header {
     width:100%; 
     height:100%;
     z-index: -1;
+    vertical-align: middle;
 
     object-fit: fill;
 }
@@ -323,6 +324,20 @@ header {
     max-width: 100%;
 }
 
+.picture {
+    width: 100%;
+}
+
+.capture {
+    margin: 2em 0 2em 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
 .foot {
     display: flex;
     flex: wrap;
@@ -351,6 +366,10 @@ header {
 
 .section li {
     margin-left: 1em;
+}
+
+.section iframe{
+    margin: 3em 0 3em 0;
 }
 
 @media only screen and (min-width: 540px) and (max-width: 960px){
