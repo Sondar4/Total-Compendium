@@ -324,12 +324,14 @@ header {
 
     width: 100%;
     height: auto;
+    max-height: 540px;   /*For correcting the error of crazy height on iOS devices*/
 
     max-width: 100%;
 }
 
 .picture {
     width: 100%;
+    height: auto;
 }
 
 .capture {
@@ -432,7 +434,7 @@ figcaption {
     .image-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;       
     }
     .picture {
         width: 50%;
