@@ -296,6 +296,20 @@ header {
     margin: 0.4em 4%;
 }
 
+.section p a:link,
+.section p a:visited,
+.section p a:active,
+.section p a:visited:active{
+    text-decoration: none;
+    color: #D55C5F;
+}
+
+.section p a:hover,
+.section p a:visited:hover {
+    color: #ed8587;
+    text-decoration: underline;
+}
+
 .index {
     margin-left: 1em;
 }
