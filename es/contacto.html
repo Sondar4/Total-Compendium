@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>Total Compendium | Contacto</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <link href='https://fonts.googleapis.com/css?family=The+Girl+Next+Door&display=swap' rel='stylesheet'> 
+        <link rel='stylesheet' href='/styles-red.css'/>
+        <style>
+            /* The same as in the home page */
+            .quote {
+                font-family: 'The Girl Next Door', cursive;
+            }
+            /* Special styles for this page; there are inline styles in the pigeon.svg */
+            .section {
+                margin: 0 auto;
+            }
+            .contact-wrapper {
+                display: flex;
+                width: 100%;
+                height: auto;
+
+                justify-content: center;
+                margin: 2em 0 2em 0;
+            }
+
+            .button {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: #EAEDF0;
+                border-radius: 3px;
+                box-shadow: 0 2px 0 #D6D9DC;
+
+                margin-top: 1.5em;
+            }
+
+            .button:link,
+            .button:visited {
+                color: #5D6063;
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+            .button:hover,
+            .button:visited:hover {
+                cursor: pointer;
+                border: none;
+                color: #D55C5F;
+                box-shadow: 0 2px 0 #D55C5F;
+            }
+
+            .mail-icon {
+                max-width: 48px;
+                max-height: 48px;
+            }
+
+            .mail-text {
+                padding-right: 1em;
+                padding-left: 0.5em;
+            }
+
+            @media only screen and (min-width: 540px){
+                .mail-text{
+                    font-size: 24px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class='hero'>
+            <picture>
+                <source media='(min-width: 540px) and (max-width: 960px)'
+                    srcset='/images/head/head-color-medium.png' class='logo'/>
+                <source media='(min-width: 961px)'
+                        srcset='/images/head/head-color.png' class='logo'/>
+                <img src='/images/head/head-color-small.png' class='logo'/>
+            </picture>
+        </div>
+
+        <header>
+
+            <nav class='header'>
+                <ul class='menu'>
+
+                    <li><a href='/es/inicio'>Inicio</a></li>
+
+                    <li class='dropdown'><a href='/es/tacticas'>Tácticas</a>
+                        <ul class='features-menu'>
+                            <li><a href='/es/tacticas/caballeria'>Caballería</a></li>
+                            <li><a href='/es/tacticas/infanteria'>Infantería</a></li>
+                            <li><a href='/es/tacticas/proyectiles'>Proyectiles</a></li>
+                            <li><a href='/es/tacticas/elefantes'>Elefantes y Carros</a></li>
+                            <li><a href='/es/tacticas/anticaballeria'>Anticaballería</a></li>
+                        </ul>
+                    </li>
+
+                    <li class='dropdown'><a href='/es/estrategias'>Estrategias</a>
+                        <ul class='features-menu'>
+                            <li><a href='/es/estrategias/yunqueymartillo'>Yunque y martillo</a></li>
+                            <li><a href='/es/estrategias/centroduro'>Centro fuerte</a></li>
+                            <li><a href='/es/estrategias/centrofalso'>Centro falso</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <div class='lang-panel'><a href='/en/contact'>EN</a>/ES</div>
+            </nav>
+
+        </header>
+
+        <article class='page'>
+
+            <header class='section title'>
+                <h2>Contacto</h2>
+                <div class='image-container' style='margin: 2em 0 1.5em 0;'>
+                    <img src='/images/pigeon.svg' style='max-height: 200px;' class='picture' alt='Paloma'/>
+                </div>
+            </header>
+
+
+            <section class='section'>
+
+                <p>Me gustaría que esta página se convirtiera en un compendio de estrategias para los juegos de Total War. Intentaré 
+                    ir añadiendo nuevas estrategias, según las vea o vaya recordando (siempre después del debido testeo), pero si 
+                    conoces alguna que funcione bien y quieres compartirla conmigo, puedes contactarme en el que correo que 
+                    aparece más abajo.
+                    Si, por otro lado, has encontrado un error en el contenido, la página o cualquier otra parte, puedes encontrarme
+                    en la misma dirección.
+                </p>
+
+                <div class='contact-wrapper'>
+                    <a class='button' href='mailto:compendium.contact@gmail.com'>
+                        <img class='mail-icon' src='/images/mail.png' alt='Mail icon'>
+                        <span class='mail-text'>compendium.contact@gmail.com</span>
+                    </a>
+                </div>
+                
+            </section>
+            
+            <hr/>
+
+            <section class='section'>
+                <aside class='quote'>
+                    <p class='quote'> Ataca a descubierto, pero vence en secreto. Ésta es, en pocas palabras,
+                        la esencia de la habilidad y del manejo perfecto de las tropas. La plena luz y las tinieblas,
+                        lo aparente y lo secreto: he aquí todo el arte.<br/>- Sun Tzu -</p>
+                </aside>
+            </section>
+
+        </article>
+
+        <footer>
+            <div class='footer'>
+
+                <div class='footer__logo'>
+                    <div class='footer__item'>
+                        <a href='/es/inicio'>Total Compendium</a>
+                    </div>
+                </div>
+
+                <div class='footer__links'>
+                    <div class='footer__item'>
+                        <a href='/es/contacto'>Contacto</a>
+                    </div>
+
+                    <div class='footer__item'>
+                        <a href='/es/licencia'>Licencia</a>
+                    </div>
+                
+                    <div class='footer__item'>
+                        <a href='/es/privacidad'>Privacidad</a>
+                    </div>
+                
+                    <div class='footer__item'>
+                        <a href='/es/terminos'>Términos</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </body>
+</html>
