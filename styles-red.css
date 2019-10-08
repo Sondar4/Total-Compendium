@@ -436,6 +436,8 @@ figcaption {
     padding: 0 13px;
 }
 
+
+
 @media only screen and (min-width: 540px) and (max-width: 960px){
     .menu{
         width: 540px;
@@ -529,5 +531,9 @@ figcaption {
     .footer__links{
         border: none;
         padding: 0 13px;
+    }
+    .big-png {
+        max-width: 320px;
+        max-height: 320px;
     }
 }
