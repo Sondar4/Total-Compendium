@@ -49,7 +49,7 @@
 body {
     font-family: 'OpenSans', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8em;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h3 {
-    color:  #ff0000;
+    color:  #d63031;
 }
 
 h2 {
@@ -301,12 +301,12 @@ header {
 .section p a:active,
 .section p a:visited:active{
     text-decoration: none;
-    color: #D55C5F;
+    color: #d63031;
 }
 
 .section p a:hover,
 .section p a:visited:hover {
-    color: #ed8587;
+    color: #ff7675;
     text-decoration: underline;
 }
 
