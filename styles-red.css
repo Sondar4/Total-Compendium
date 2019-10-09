@@ -301,12 +301,12 @@ header {
 .section p a:active,
 .section p a:visited:active{
     text-decoration: none;
-    color: #d63031;
+    color: #0984e3;
 }
 
 .section p a:hover,
 .section p a:visited:hover {
-    color: #ff7675;
+    color: #74b9ff;
     text-decoration: underline;
 }
 
@@ -315,14 +315,14 @@ header {
 }
 
 .index a {
-    color: #54575a;
+    color: #2d3436;
     text-decoration: none;
     font-weight: bold;
 }
 
 .index a:hover,
 .index a:visited:hover {
-    color: rgb(196, 84, 84);;
+    color: #ff7675;
 }
 
 .index li {
@@ -413,13 +413,13 @@ figcaption {
 .footer__item a:visited,
 .footer__item a:active,
 .footer__item a:visited:active {
-    color: #D55C5F;
+    color: #d63031;
     text-decoration: none;
 }
 
 .footer__item a:hover,
 .footer__item a:visited:hover {
-    color: #ed8587;
+    color: #ff7675;
     text-decoration: underline;
 }
 
