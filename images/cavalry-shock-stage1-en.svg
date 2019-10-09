@@ -16,7 +16,7 @@
    viewBox="0 0 211.66666 121.97292"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
    sodipodi:docname="cavalry-shock-stage1-en.svg">
   <defs
      id="defs2">
@@ -238,35 +238,6 @@
        x2="144.34216"
        y2="226.49113"
        gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4599"
-       id="linearGradient4636"
-       gradientUnits="userSpaceOnUse"
-       x1="74.227577"
-       y1="226.49113"
-       x2="144.34216"
-       y2="226.49113"
-       gradientTransform="translate(15.59847,30.821351)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4605"
-       id="linearGradient4638"
-       gradientUnits="userSpaceOnUse"
-       x1="74.227577"
-       y1="226.49113"
-       x2="144.34216"
-       y2="226.49113"
-       gradientTransform="translate(15.59847,30.821351)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4660"
-       id="linearGradient4662"
-       x1="70.776039"
-       y1="214.71457"
-       x2="140.89062"
-       y2="214.71457"
-       gradientUnits="userSpaceOnUse" />
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
@@ -369,7 +340,7 @@
          inkscape:connector-curvature="0"
          id="path6108-9-5-6"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0000fe;stroke-width:1.00000003pt;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fdcb6e;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
     <marker
@@ -387,15 +358,6 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0000fe;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4873"
-       id="linearGradient4662-3"
-       x1="70.776039"
-       y1="214.71457"
-       x2="140.89062"
-       y2="214.71457"
-       gradientUnits="userSpaceOnUse" />
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
@@ -408,7 +370,7 @@
          inkscape:connector-curvature="0"
          id="path6108-9-5-6-4"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0000fe;stroke-width:1.00000003pt;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fdcb6e;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
   </defs>
@@ -420,17 +382,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2312497"
-     inkscape:cx="381.47969"
-     inkscape:cy="247.49291"
+     inkscape:cx="464.92588"
+     inkscape:cy="244.24418"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -440,7 +402,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -461,24 +423,20 @@
            width="251"
            id="rect4619" /></flowRegion><flowPara
          id="flowPara4621">INfanteríaInfanter</flowPara><flowPara
-         id="flowPara4623" /></flowRoot>    <g
-       id="g4531"
-       transform="matrix(0.80117797,0,0,1.1956749,75.270759,-33.796114)">
-      <rect
-         style="fill:#ff0000;fill-opacity:1;stroke:url(#linearGradient4662);stroke-width:0.26458332"
-         id="rect4580-0"
-         width="70.114586"
-         height="14.2875"
-         x="70.776039"
-         y="207.57082" />
-    </g>
+         id="flowPara4623" /></flowRoot>    <rect
+       y="214.3911"
+       x="131.97496"
+       height="17.083206"
+       width="56.174263"
+       id="rect4580-0"
+       style="fill:#d63031;fill-opacity:1;stroke:#2d3436;stroke-width:0.25896049;stroke-opacity:1" />
     <path
-       style="fill:#ffffff;stroke:#0000fe;stroke-width:0.50525367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6110-2-5-70)"
+       style="fill:#ffffff;stroke:#fdcb6e;stroke-width:0.50525367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6110-2-5-70)"
        d="m 129.30317,256.99448 c 0,-16.77898 0,-22.122 0,-22.122"
        id="path6106-9-9-9"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#0000ff;fill-opacity:1;stroke:#003000;stroke-width:0.147;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#fdcb6e;fill-opacity:1;stroke:#2d3436;stroke-width:0.147;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1177"
        width="22.778347"
        height="22.778347"
@@ -497,75 +455,59 @@
          y="269.54501"
          style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332">Medium</tspan></text>
     <g
-       id="g1213"
-       transform="translate(4.4198217,9.6022278)">
-      <g
-         id="g1261">
-        <g
-           id="g1256">
-          <g
-             id="g1252">
-            <rect
-               y="250.16873"
-               x="89.826057"
-               height="14.287499"
-               width="70.114586"
-               id="rect4580"
-               style="fill:url(#linearGradient4636);fill-opacity:1;stroke:url(#linearGradient4638);stroke-width:0.26458332" />
-          </g>
-        </g>
-      </g>
-      <text
-         id="text4627"
-         y="259.15045"
-         x="113.48009"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332"
-           y="259.15045"
-           x="113.48009"
-           id="tspan4625"
-           sodipodi:role="line">Heavy</tspan></text>
-      <text
-         id="text4627-4"
-         y="215.9608"
-         x="141.48637"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332"
-           y="215.9608"
-           x="141.48637"
-           id="tspan4625-2"
-           sodipodi:role="line">Medium</tspan></text>
-      <g
-         id="g1320"
-         transform="translate(0,5.080089)">
-        <g
-           transform="matrix(0.80117797,0,0,1.1956749,9.3330945,-48.478431)"
-           id="g4531-1">
-          <rect
-             y="207.57082"
-             x="70.776039"
-             height="14.2875"
-             width="70.114586"
-             id="rect4580-0-8"
-             style="fill:#ff0000;fill-opacity:1;stroke:url(#linearGradient4662-3);stroke-width:0.26458332" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="79.968529"
-           y="210.88072"
-           id="text4627-4-4"><tspan
-             sodipodi:role="line"
-             id="tspan4625-2-7"
-             x="79.968529"
-             y="210.88072"
-             style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332">Medium</tspan></text>
-      </g>
+       id="g1252"
+       transform="translate(4.4198217,9.6022278)"
+       style="fill:#fdcb6e;fill-opacity:1;stroke:#2d3436;stroke-opacity:1">
+      <rect
+         style="fill:#fdcb6e;fill-opacity:1;stroke:#2d3436;stroke-width:0.26458332;stroke-opacity:1"
+         id="rect4580"
+         width="70.114586"
+         height="14.287499"
+         x="89.826057"
+         y="250.16873" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="117.89991"
+       y="268.75269"
+       id="text4627"><tspan
+         sodipodi:role="line"
+         id="tspan4625"
+         x="117.89991"
+         y="268.75269"
+         style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332">Heavy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="145.90619"
+       y="225.56303"
+       id="text4627-4"><tspan
+         sodipodi:role="line"
+         id="tspan4625-2"
+         x="145.90619"
+         y="225.56303"
+         style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332">Medium</tspan></text>
+    <rect
+       style="fill:#d63031;fill-opacity:1;stroke:#2d3436;stroke-width:0.25896049;stroke-opacity:1"
+       id="rect4580-0-8"
+       width="56.174263"
+       height="17.083206"
+       x="70.457123"
+       y="214.3911" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="84.388351"
+       y="225.56303"
+       id="text4627-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan4625-2-7"
+         x="84.388351"
+         y="225.56303"
+         style="font-size:7.05555534px;fill:#f9f9f9;stroke-width:0.26458332">Medium</tspan></text>
     <path
-       style="fill:#ffffff;stroke:#0000fe;stroke-width:0.63629687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6110-2-5-70-69)"
+       style="fill:#ffffff;stroke:#fdcb6e;stroke-width:0.63629687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6110-2-5-70-69)"
        d="M 53.723547,256.39512 C -3.9069169,236.82506 33.427596,197.09579 66.616951,189.93588"
        id="path6106-9-9-9-2"
        inkscape:connector-curvature="0"

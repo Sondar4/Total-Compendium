@@ -16,7 +16,7 @@
    viewBox="0 0 211.66666 121.97292"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
    sodipodi:docname="javelines.svg">
   <defs
      id="defs2">
@@ -238,26 +238,6 @@
        x2="144.34216"
        y2="226.49113"
        gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4599"
-       id="linearGradient4777"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-3.4515343,30.821351)"
-       x1="74.227577"
-       y1="226.49113"
-       x2="144.34216"
-       y2="226.49113" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4605"
-       id="linearGradient4779"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-3.4515343,30.821351)"
-       x1="74.227577"
-       y1="226.49113"
-       x2="144.34216"
-       y2="226.49113" />
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
@@ -285,7 +265,7 @@
          inkscape:connector-curvature="0"
          id="path6108-9-5"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#fff9f4;fill-opacity:1;fill-rule:evenodd;stroke:#ffba00;stroke-width:1.00000003pt;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:0.94117647;fill-rule:evenodd;stroke:#fdcb6e;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
     <marker
@@ -380,16 +360,6 @@
     </marker>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4599"
-       id="linearGradient1323"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-3.4515343,30.821351)"
-       x1="74.227577"
-       y1="226.49113"
-       x2="144.34216"
-       y2="226.49113" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient4605"
        id="linearGradient1325"
        gradientUnits="userSpaceOnUse"
@@ -418,6 +388,16 @@
        y1="226.49113"
        x2="144.34216"
        y2="226.49113" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4605"
+       id="linearGradient4905"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-3.4515343,30.821351)"
+       x1="74.227577"
+       y1="226.49113"
+       x2="144.34216"
+       y2="226.49113" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -426,18 +406,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2312497"
-     inkscape:cx="560.1125"
-     inkscape:cy="271.50458"
+     inkscape:zoom="1.74125"
+     inkscape:cx="428.74234"
+     inkscape:cy="279.4436"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4672-6-2-7-0"
      showgrid="false"
      showguides="true"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -447,7 +427,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -472,10 +452,10 @@
        id="g4526"
        transform="matrix(-1,0,0,1,242.33049,-8.0678034)" />
     <g
-       transform="matrix(-0.2713575,0,0,1.1395675,102.89643,-36.47767)"
+       transform="matrix(-0.2713575,0,0,1.1395675,100.7418,-44.032043)"
        id="g4672-6-2">
       <rect
-         style="fill:url(#linearGradient4777);fill-opacity:1;stroke:url(#linearGradient4779);stroke-width:0.26458332"
+         style="fill:#fdcb6e;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4580-6-6"
          width="70.114586"
          height="14.287499"
@@ -483,22 +463,22 @@
          y="250.16873" />
     </g>
     <path
-       style="fill:#fff9f4;fill-opacity:1;stroke:#ffba00;stroke-width:0.4721652;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6110-2-5)"
-       d="m 84.357703,248.12364 c 13.07819,-14.97043 28.783147,-18.74853 45.127277,-19.80321"
+       style="fill:#ffffff;fill-opacity:0.94117647;stroke:#fdcb6e;stroke-width:0.472;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6110-2-5)"
+       d="m 82.203072,240.56927 c 13.07819,-14.97043 28.783148,-18.74853 45.127278,-19.80321"
        id="path6106-9-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.85300416px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 178.29589,206.65286 -63.41878,58.60807 H 33.081306"
+       style="fill:none;stroke:#2d3436;stroke-width:0.35011953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 159.66057,214.26453 -47.0672,43.45157 H 51.88735"
        id="path1257"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <g
-       transform="matrix(-0.20006573,0.18332647,0.76988064,0.84017729,-55.728384,12.142706)"
+       transform="matrix(-0.20006573,0.18332647,0.76988064,0.84017729,-57.883015,4.5883334)"
        id="g4672-6-2-7">
       <rect
-         style="fill:url(#linearGradient1323);fill-opacity:1;stroke:url(#linearGradient1325);stroke-width:0.26458332"
+         style="fill:#fdcb6e;fill-opacity:1;stroke:url(#linearGradient1325);stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4580-6-6-3"
          width="70.114586"
          height="14.287499"
@@ -506,10 +486,10 @@
          y="250.16873" />
     </g>
     <g
-       transform="matrix(-0.20006573,0.18332647,0.76988064,0.84017729,-41.700858,-0.71115361)"
+       transform="matrix(-0.20006573,0.18332647,0.76988064,0.84017729,-43.855489,-8.2655262)"
        id="g4672-6-2-7-0">
       <rect
-         style="fill:#ff0000;fill-opacity:1;stroke:url(#linearGradient3183);stroke-width:0.26458332"
+         style="fill:#d63031;fill-opacity:1;stroke:url(#linearGradient4905);stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4580-6-6-3-6"
          width="70.114586"
          height="14.287499"
