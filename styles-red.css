@@ -296,16 +296,16 @@ header {
     margin: 0.4em 4%;
 }
 
-.section p a:link,
-.section p a:visited,
-.section p a:active,
-.section p a:visited:active{
+.section a:link,
+.section a:visited,
+.section a:active,
+.section a:visited:active{
     text-decoration: none;
     color: #0984e3;
 }
 
-.section p a:hover,
-.section p a:visited:hover {
+.section a:hover,
+.section a:visited:hover {
     color: #74b9ff;
     text-decoration: underline;
 }
