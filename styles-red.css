@@ -310,26 +310,29 @@ header {
     text-decoration: underline;
 }
 
-.index {
+.section .index {
     margin-left: 1em;
 }
 
-.index a {
+.section .index a:link,
+.section .index a:visited, 
+.section .index a:active,
+.section .index a:visited:active {
     color: #2d3436;
     text-decoration: none;
     font-weight: bold;
 }
 
-.index a:hover,
-.index a:visited:hover {
+.section .index a:hover,
+.section .index a:visited:hover {
     color: #ff7675;
 }
 
-.index li {
+.section .index li {
     margin-bottom: 1em;
 }
 
-.index li:last-of-type {
+.section .index li:last-of-type {
     margin-bottom: 0;
 }
 
